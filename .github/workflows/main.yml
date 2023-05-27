@@ -46,7 +46,7 @@ jobs:
         with:
           ACCESS_TOKEN: ${{ secrets.FORACTION }}
           BRANCH: gh-pages
-          FOLDER: /dist
+          FOLDER: dist
       # - name: Deploy
       #   uses: peaceiris/actions-gh-pages@v3
       #   with:
