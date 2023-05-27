@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <script type="module" src="index.js" defer></script> -->
+    <!-- <script src="lightdark.js" defer></script>  -->
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <canvas id="canvas" style="display: none;"></canvas>
+    <div id="load" class="screen" style="display: block;">
+      Loading, please wait ...
+    </div>
+    <div id="start" class="screen" style="display: none;">
+      <img src="/assets/asteroids-splash.png" style="display: block">
+      <button onclick="window.gui.startGame()">Let's play</button>
+    </div>
+    <div id="end" class="screen" style="display: none;">
+      <img src="/assets/asteroids-splash.png" style="display: block">
+      <button onclick="window.gui.startGame()">Start Again</button>
+    </div>
+    <i class="bi bi-moon" id="toggleDark" style="color: white; display:block;"></i>
+</body>
+</html>
