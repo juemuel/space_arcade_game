@@ -37,7 +37,7 @@ jobs:
         
       # 2. 构建所需文件
       - name: Build docs
-        run: pnpm -F run npx webpack
+        run: npx webpack
         
       # 3. 把当前分支下的某个目录内容 部署到 GitHub Pages，
       # 方案1:JamesIves：https://github.com/marketplace/actions/deploy-to-github-pages
