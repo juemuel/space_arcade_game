@@ -3,16 +3,18 @@
 - 页面结构：加载页、开始页、游戏页、结束页
 - 文件结构
   - index：窗口调整、资源加载
-  - gui(game):资源加载和页面显示
-    - gameloop(game)：游戏刷新与进程控制
-    - game：游戏主体
-      - asteroidService：Png敌机
-      - player(fx)：Png玩家
-        - keyhandler：按键事件
-        - projectile：子弹
+  - GUI(game):资源加载和页面显示
+    - Gameloop(game)：游戏刷新与进程控制
+  
+  - Game：游戏主体
+    - AsteroidService：Png敌机
+    - Player(fx)：Png玩家
+      - Keyhandler：按键事件
+      - Projectile：子弹
+  
     - Else
-      - particleService：Canvas粒子特效
-      - lightdark：日夜模式
+      - ParticleService：Canvas粒子特效
+      - Lightdark：日夜模式
 
 ## 部署
 - npx webpack 生成dist
@@ -22,3 +24,8 @@
 
 ![image-20230528001527416](https://s2.loli.net/2023/05/28/3bKqSOrC5wfAQ8B.png)
 
+![image-20230528012341443](https://s2.loli.net/2023/05/28/u4SojBPFycMKaNT.png)
+
+
+
+![image-20230528012216843](https://s2.loli.net/2023/05/28/uxAobDmaerEhKdH.png)
